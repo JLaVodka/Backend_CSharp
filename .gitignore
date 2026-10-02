@@ -1,0 +1,39 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet
+packages/
+
+# Logs
+*.log
+
+# Archivos de entorno
+.env
+.env.*
+!.env.example
+
+# User-specific application settings
+appsettings.Local.json
+appsettings.Development.json
+
+# Publish
+publish/
+*.publishsettings
+
+# OS
+.DS_Store
+Thumbs.db
