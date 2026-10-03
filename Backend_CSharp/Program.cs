@@ -51,6 +51,11 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
+app.MapGet("/", () => new
+{
+    mensaje = "Microservicio C# funcionando correctamente"
+});
+
 app.MapControllers();
 
 app.Run();
